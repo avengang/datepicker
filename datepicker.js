@@ -359,7 +359,7 @@ DatePicker.prototype = {
             return;
         }
 
-        //setTimeout(function() {
+        setTimeout(function() {
 
             if(me.autoDestroy) {
                 me.destroy();
@@ -368,7 +368,7 @@ DatePicker.prototype = {
                 me.isHide = true;
                 thisElement.style.display = 'none';
             }
-        //}, 350);
+        }, 350);
     },
 
     /**
